@@ -1,0 +1,808 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:dd134417-9066-42c8-8e25-3b9fbb893b85#"
+     xml:base="urn:webprotege:ontology:dd134417-9066-42c8-8e25-3b9fbb893b85"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:dd134417-9066-42c8-8e25-3b9fbb893b85"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#creator -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#creator">
+        <rdfs:label xml:lang="en">rdfs:creator</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#date">
+        <rdfs:label xml:lang="en">rdfs:date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#language -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#language">
+        <rdfs:label xml:lang="en">rdfs:language</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R32b14Kmio0ZwYSydP4ApE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R32b14Kmio0ZwYSydP4ApE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FhkQyz3oVPkXSJjYLDgoB"/>
+        <rdfs:label xml:lang="en">Yerli Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R53MmWI2aCvkJ14N1ahCBI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R53MmWI2aCvkJ14N1ahCBI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RIkDP7CCbuNEoIDVgaQzYb"/>
+        <rdfs:creator xml:lang="en">Marc Johnson</rdfs:creator>
+        <rdfs:date xml:lang="en">2012</rdfs:date>
+        <rdfs:label xml:lang="en">Swept Away</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Gn7d02YBsrLNxj3CUjYD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Gn7d02YBsrLNxj3CUjYD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8zqWn1moLXDauYWXpxWc7Q"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yerli Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7MvqWNtkqg8mRQTJElqDFO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7MvqWNtkqg8mRQTJElqDFO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FhkQyz3oVPkXSJjYLDgoB"/>
+        <rdfs:label xml:lang="en">Yabancı Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bjxkdDhGaSUzy9deyp1Lb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7bjxkdDhGaSUzy9deyp1Lb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxyHXRdgFIHz1D9qNXeKRj"/>
+        <rdfs:creator xml:lang="en">Eminem</rdfs:creator>
+        <rdfs:date xml:lang="en">2005</rdfs:date>
+        <rdfs:label xml:lang="en">When I&apos;m Gone</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7drWOsdk3qrE0Wngwt4ZSG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7drWOsdk3qrE0Wngwt4ZSG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R85jey18lwPHeo4cR9WBO5"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yerli Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ei1r0Swta5xeL55OUY9KY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ei1r0Swta5xeL55OUY9KY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hYtcMEm5FsxYS9oF3RovV"/>
+        <rdfs:label xml:lang="en">Caz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7koi8kMfIaRMDv0wW6inJf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7koi8kMfIaRMDv0wW6inJf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MvqWNtkqg8mRQTJElqDFO"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yabancı Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sevp0Qu8SZwSZCmys2Ed5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7sevp0Qu8SZwSZCmys2Ed5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rp9aAgsB137ZSHUPfvEncD"/>
+        <rdfs:creator xml:lang="en">Birsen Tezer</rdfs:creator>
+        <rdfs:date xml:lang="en">2009</rdfs:date>
+        <rdfs:label xml:lang="en">Di Gel Yanıma</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7znSdxrindvSscX0SwVnk3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7znSdxrindvSscX0SwVnk3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R32b14Kmio0ZwYSydP4ApE"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yerli Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8353KtwQsOzEWWR4jeIbzC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8353KtwQsOzEWWR4jeIbzC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMAZzZQCqHhUUODUnG5TV8"/>
+        <rdfs:creator xml:lang="en">Jamiroquai</rdfs:creator>
+        <rdfs:date xml:lang="en">1996</rdfs:date>
+        <rdfs:label xml:lang="en">Cosmic Girl</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85jey18lwPHeo4cR9WBO5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R85jey18lwPHeo4cR9WBO5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8TYROTVeyr8gmucftrvaVU"/>
+        <rdfs:label xml:lang="en">Yerli Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85t5TmqHeTgmM6kPHZxRc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R85t5TmqHeTgmM6kPHZxRc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RlWmyFEaP4KOeDFJzKEoK0"/>
+        <rdfs:creator xml:lang="en">Daft Punk</rdfs:creator>
+        <rdfs:date xml:lang="en">2013</rdfs:date>
+        <rdfs:label xml:lang="en">Get Lucky</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85yzNwW6JbLRMtkjhxEVwY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R85yzNwW6JbLRMtkjhxEVwY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBqgvt6KE3ObfUP13Jhtv3I"/>
+        <rdfs:creator xml:lang="en">Mor ve Ötesi</rdfs:creator>
+        <rdfs:date xml:lang="en">2004</rdfs:date>
+        <rdfs:label xml:lang="en">Cambaz</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BGmeOUxVrTkWq1pHPiudr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8BGmeOUxVrTkWq1pHPiudr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ZTr5jfBrhCigSxhURm8cE"/>
+        <rdfs:creator xml:lang="en">Imagine Dragons</rdfs:creator>
+        <rdfs:date xml:lang="en">2012</rdfs:date>
+        <rdfs:label xml:lang="en">Radioactive</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CEHe4wvj3QHRxqXabSOL8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8CEHe4wvj3QHRxqXabSOL8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9RrDsV4LOPvk4rRFlPS3xl"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yabancı Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8E6dHKAR4TiIo94GLNwIoD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8E6dHKAR4TiIo94GLNwIoD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCke3QRfAPAHZHeFg6bMwSV"/>
+        <rdfs:creator xml:lang="en">Herbie Hancock</rdfs:creator>
+        <rdfs:date xml:lang="en">2001</rdfs:date>
+        <rdfs:label xml:lang="en">Kebero</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8FhkQyz3oVPkXSJjYLDgoB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8FhkQyz3oVPkXSJjYLDgoB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hYtcMEm5FsxYS9oF3RovV"/>
+        <rdfs:label xml:lang="en">Pop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8HNQVe1rMEQZlRxTweDYSY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8HNQVe1rMEQZlRxTweDYSY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R32b14Kmio0ZwYSydP4ApE"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yerli Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8TYROTVeyr8gmucftrvaVU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8TYROTVeyr8gmucftrvaVU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hYtcMEm5FsxYS9oF3RovV"/>
+        <rdfs:label xml:lang="en">Rap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8V3aBLesgYMShSQuBO5g7H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8V3aBLesgYMShSQuBO5g7H">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCGOaOJuuvSGOlpfNUMq8o1"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yabancı Funk Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Vsw1CIYUyA1dohyyBNru7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Vsw1CIYUyA1dohyyBNru7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96PO2YhrWDL4wLia5LtDJb"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yerli Funk Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XdReRwkD9yzEH7Vqw5g91 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XdReRwkD9yzEH7Vqw5g91">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrLehU81NfZmALmUtjBsfv"/>
+        <rdfs:label xml:lang="en">Yerli Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jJu2x3VOsNVQ1dA0k9ZfB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jJu2x3VOsNVQ1dA0k9ZfB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MvqWNtkqg8mRQTJElqDFO"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yabancı Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mU9momWWkmaQp5f8V5IrX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8mU9momWWkmaQp5f8V5IrX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hYtcMEm5FsxYS9oF3RovV"/>
+        <rdfs:label xml:lang="en">Funk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8uXfrXWZS1TecvbAapeS6I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8uXfrXWZS1TecvbAapeS6I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MvqWNtkqg8mRQTJElqDFO"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yabancı Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vYbvSag4L31imc4Ppbwvn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8vYbvSag4L31imc4Ppbwvn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7znSdxrindvSscX0SwVnk3"/>
+        <rdfs:creator xml:lang="en">Sertab Erener</rdfs:creator>
+        <rdfs:date xml:lang="en">1992</rdfs:date>
+        <rdfs:label xml:lang="en">Aldırma Deli Gönlüm</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8zqWn1moLXDauYWXpxWc7Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8zqWn1moLXDauYWXpxWc7Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ei1r0Swta5xeL55OUY9KY"/>
+        <rdfs:label xml:lang="en">Yerli Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R92Rp4ryglkZ3aMroWilkzk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R92Rp4ryglkZ3aMroWilkzk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiOd8j0qJVM0p1N9IkSBd"/>
+        <rdfs:creator xml:lang="en">Haluk Levent</rdfs:creator>
+        <rdfs:date xml:lang="en">1993</rdfs:date>
+        <rdfs:label xml:lang="en">Ankara</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94h8dkJlb3dQsnrlSWG6jY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94h8dkJlb3dQsnrlSWG6jY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7koi8kMfIaRMDv0wW6inJf"/>
+        <rdfs:creator xml:lang="en">Maroon 5</rdfs:creator>
+        <rdfs:date xml:lang="en">2010</rdfs:date>
+        <rdfs:label xml:lang="en">Moves Like Jagger</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96PO2YhrWDL4wLia5LtDJb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96PO2YhrWDL4wLia5LtDJb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8mU9momWWkmaQp5f8V5IrX"/>
+        <rdfs:label xml:lang="en">Yerli Funk Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RrDsV4LOPvk4rRFlPS3xl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9RrDsV4LOPvk4rRFlPS3xl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8TYROTVeyr8gmucftrvaVU"/>
+        <rdfs:label xml:lang="en">Yabancı Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZTr5jfBrhCigSxhURm8cE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ZTr5jfBrhCigSxhURm8cE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWIcFEWBPEbgUTGOdjCo1G"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yabancı Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9bGSLwtCnfB7KmAupMdpvg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9bGSLwtCnfB7KmAupMdpvg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8uXfrXWZS1TecvbAapeS6I"/>
+        <rdfs:creator xml:lang="en">Shakira</rdfs:creator>
+        <rdfs:date xml:lang="en">2001</rdfs:date>
+        <rdfs:label xml:lang="en">Whenever, Wherever</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hYtcMEm5FsxYS9oF3RovV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9hYtcMEm5FsxYS9oF3RovV">
+        <rdfs:label xml:lang="en">Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iDMGuEx3PnE7rtAgj9Sn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9iDMGuEx3PnE7rtAgj9Sn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCN872Y46lwlfgcOpPt6caW"/>
+        <rdfs:creator xml:lang="en">Tarkan</rdfs:creator>
+        <rdfs:date xml:lang="en">2001</rdfs:date>
+        <rdfs:label xml:lang="en">Kuzu Kuzu</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9zNRVly93U0C9XNwyR8OR2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9zNRVly93U0C9XNwyR8OR2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8V3aBLesgYMShSQuBO5g7H"/>
+        <rdfs:creator xml:lang="en">Justin Timberlake</rdfs:creator>
+        <rdfs:date xml:lang="en">2012</rdfs:date>
+        <rdfs:label xml:lang="en">Rock Your Body</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPfdZ4KQDQu5en9q0mkaJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPfdZ4KQDQu5en9q0mkaJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWIcFEWBPEbgUTGOdjCo1G"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yabancı Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRx18193SyadDi9sag4A6Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBRx18193SyadDi9sag4A6Y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWIcFEWBPEbgUTGOdjCo1G"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yabancı Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBWAZ6oODuPcfTcigPCQAwT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBWAZ6oODuPcfTcigPCQAwT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Vsw1CIYUyA1dohyyBNru7"/>
+        <rdfs:creator xml:lang="en">Mirkelam</rdfs:creator>
+        <rdfs:date xml:lang="en">2001</rdfs:date>
+        <rdfs:label xml:lang="en">Terle</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZPL1Y3VvpyElrpmlYZcYc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZPL1Y3VvpyElrpmlYZcYc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RtiJPTE3pR5rjnETOWPBT1"/>
+        <rdfs:creator xml:lang="en">Okay Temiz</rdfs:creator>
+        <rdfs:date xml:lang="en">2010</rdfs:date>
+        <rdfs:label xml:lang="en">Dokuz Sekiz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiOd8j0qJVM0p1N9IkSBd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBiOd8j0qJVM0p1N9IkSBd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8XdReRwkD9yzEH7Vqw5g91"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yerli Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqgvt6KE3ObfUP13Jhtv3I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBqgvt6KE3ObfUP13Jhtv3I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8XdReRwkD9yzEH7Vqw5g91"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yerli Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxyHXRdgFIHz1D9qNXeKRj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxyHXRdgFIHz1D9qNXeKRj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9RrDsV4LOPvk4rRFlPS3xl"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yabancı Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCGdNBd6cpem12Ei7RgWzs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCGdNBd6cpem12Ei7RgWzs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8zqWn1moLXDauYWXpxWc7Q"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yerli Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGOaOJuuvSGOlpfNUMq8o1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCGOaOJuuvSGOlpfNUMq8o1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8mU9momWWkmaQp5f8V5IrX"/>
+        <rdfs:label xml:lang="en">Yabancı Funk Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCN872Y46lwlfgcOpPt6caW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCN872Y46lwlfgcOpPt6caW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R32b14Kmio0ZwYSydP4ApE"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yerli Pop Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWMlowjPYHNQRZGDRbOh9D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWMlowjPYHNQRZGDRbOh9D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R85jey18lwPHeo4cR9WBO5"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yerli Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZzz0nA1neWvPoYVzGDRmS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZzz0nA1neWvPoYVzGDRmS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RnkRqt6PQkEISr80oNadz9"/>
+        <rdfs:creator xml:lang="en">Dr. Dre</rdfs:creator>
+        <rdfs:date xml:lang="en">1999</rdfs:date>
+        <rdfs:label xml:lang="en">Still D.R.E</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCke3QRfAPAHZHeFg6bMwSV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCke3QRfAPAHZHeFg6bMwSV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RlPsYFqN6l5Hsea8QKmpxJ"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yabancı Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCt9nRebtODQpUiZzRMO25v -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCt9nRebtODQpUiZzRMO25v">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7drWOsdk3qrE0Wngwt4ZSG"/>
+        <rdfs:creator xml:lang="en">Cartel</rdfs:creator>
+        <rdfs:date xml:lang="en">1997</rdfs:date>
+        <rdfs:label xml:lang="en">Evdeki Ses</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxHTm9d4ImQudiqM1KVTSW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCxHTm9d4ImQudiqM1KVTSW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Gn7d02YBsrLNxj3CUjYD"/>
+        <rdfs:creator xml:lang="en">Ercüment Orkut</rdfs:creator>
+        <rdfs:date xml:lang="en">2018</rdfs:date>
+        <rdfs:label xml:lang="en">Relic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzYPLhXae0t5FJgN3MhO0K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzYPLhXae0t5FJgN3MhO0K">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCGdNBd6cpem12Ei7RgWzs"/>
+        <rdfs:creator xml:lang="en">Kerem Görsev</rdfs:creator>
+        <rdfs:date xml:lang="en">1999</rdfs:date>
+        <rdfs:label xml:lang="en">Moonriver</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0j7b31d3E1Te2SfJK1pyv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0j7b31d3E1Te2SfJK1pyv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnDegzBvmEk06DitKU6WYG"/>
+        <rdfs:creator xml:lang="en">Chick Corea</rdfs:creator>
+        <rdfs:date xml:lang="en">1994</rdfs:date>
+        <rdfs:label xml:lang="en">Lush Life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2Kl6jVnxX1BHfG8GvGn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD2Kl6jVnxX1BHfG8GvGn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBRx18193SyadDi9sag4A6Y"/>
+        <rdfs:creator xml:lang="en">Red Hot Chili Peppers</rdfs:creator>
+        <rdfs:date xml:lang="en">1999</rdfs:date>
+        <rdfs:label xml:lang="en">Californication</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBvk6c1lO9miTRD9zkD6xG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDBvk6c1lO9miTRD9zkD6xG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8HNQVe1rMEQZlRxTweDYSY"/>
+        <rdfs:creator xml:lang="en">Aleyna Tilki</rdfs:creator>
+        <rdfs:date xml:lang="en">2017</rdfs:date>
+        <rdfs:label xml:lang="en">Sen Olsan Bari</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMAZzZQCqHhUUODUnG5TV8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDMAZzZQCqHhUUODUnG5TV8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCGOaOJuuvSGOlpfNUMq8o1"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yabancı Funk Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnDegzBvmEk06DitKU6WYG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDnDegzBvmEk06DitKU6WYG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RlPsYFqN6l5Hsea8QKmpxJ"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yabancı Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RI2eqivsKWfFOtxrhLrGoe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RI2eqivsKWfFOtxrhLrGoe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8XdReRwkD9yzEH7Vqw5g91"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yerli Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIkDP7CCbuNEoIDVgaQzYb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIkDP7CCbuNEoIDVgaQzYb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RlPsYFqN6l5Hsea8QKmpxJ"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yabancı Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJhsgjQ6yrVpTFUR6LimX8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJhsgjQ6yrVpTFUR6LimX8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jJu2x3VOsNVQ1dA0k9ZfB"/>
+        <rdfs:creator xml:lang="en">R. Kelly</rdfs:creator>
+        <rdfs:date xml:lang="en">1998</rdfs:date>
+        <rdfs:label xml:lang="en">I Believe I Can Fly</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMaHFGd8EOTL1HmtclLh8f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMaHFGd8EOTL1HmtclLh8f">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RebXQ0QDiHZBydA1onmhHG"/>
+        <rdfs:creator xml:lang="en">Ceza</rdfs:creator>
+        <rdfs:date xml:lang="en">2016</rdfs:date>
+        <rdfs:label xml:lang="en">Yerli Plaka</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNCVoEDXMLjQBvSDeAsOla -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNCVoEDXMLjQBvSDeAsOla">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RI2eqivsKWfFOtxrhLrGoe"/>
+        <rdfs:creator xml:lang="en">Ufuk Beydemir</rdfs:creator>
+        <rdfs:date xml:lang="en">2018</rdfs:date>
+        <rdfs:label xml:lang="en">Ay Tenli Kadın</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWIcFEWBPEbgUTGOdjCo1G -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWIcFEWBPEbgUTGOdjCo1G">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrLehU81NfZmALmUtjBsfv"/>
+        <rdfs:label xml:lang="en">Yabancı Rock Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RebXQ0QDiHZBydA1onmhHG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RebXQ0QDiHZBydA1onmhHG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R85jey18lwPHeo4cR9WBO5"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yerli Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhM2MWEWAn3FPMJ0rsW1ft -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhM2MWEWAn3FPMJ0rsW1ft">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBPfdZ4KQDQu5en9q0mkaJ"/>
+        <rdfs:creator xml:lang="en">Toto</rdfs:creator>
+        <rdfs:date xml:lang="en">2006</rdfs:date>
+        <rdfs:label xml:lang="en">No End In Sight</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlPsYFqN6l5Hsea8QKmpxJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlPsYFqN6l5Hsea8QKmpxJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ei1r0Swta5xeL55OUY9KY"/>
+        <rdfs:label xml:lang="en">Yabancı Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlWmyFEaP4KOeDFJzKEoK0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlWmyFEaP4KOeDFJzKEoK0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCGOaOJuuvSGOlpfNUMq8o1"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yabancı Funk Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmO3EihYfq6UfNpaUvTdcy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmO3EihYfq6UfNpaUvTdcy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCWMlowjPYHNQRZGDRbOh9D"/>
+        <rdfs:creator xml:lang="en">Sagopa Kajmer</rdfs:creator>
+        <rdfs:date xml:lang="en">2014</rdfs:date>
+        <rdfs:label xml:lang="en">366. Gün</rdfs:label>
+        <rdfs:language xml:lang="en">Türkçe</rdfs:language>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnkRqt6PQkEISr80oNadz9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnkRqt6PQkEISr80oNadz9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9RrDsV4LOPvk4rRFlPS3xl"/>
+        <rdfs:label xml:lang="en">1990-2000 Arası Yabancı Rap Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rp9aAgsB137ZSHUPfvEncD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rp9aAgsB137ZSHUPfvEncD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8zqWn1moLXDauYWXpxWc7Q"/>
+        <rdfs:label xml:lang="en">2000-2010 Arası Yerli Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrLehU81NfZmALmUtjBsfv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrLehU81NfZmALmUtjBsfv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9hYtcMEm5FsxYS9oF3RovV"/>
+        <rdfs:label xml:lang="en">Rock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtiJPTE3pR5rjnETOWPBT1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtiJPTE3pR5rjnETOWPBT1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96PO2YhrWDL4wLia5LtDJb"/>
+        <rdfs:label xml:lang="en">2010&apos;lar ve Sonrası Yerli Funk Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuysummWrjp2szRRwewJNx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuysummWrjp2szRRwewJNx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8CEHe4wvj3QHRxqXabSOL8"/>
+        <rdfs:creator xml:lang="en">Pitbull</rdfs:creator>
+        <rdfs:date xml:lang="en">2013</rdfs:date>
+        <rdfs:label xml:lang="en">Timber</rdfs:label>
+        <rdfs:language xml:lang="en">İngilizce</rdfs:language>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
